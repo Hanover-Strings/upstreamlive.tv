@@ -1,15 +1,18 @@
 import React from 'react';
-import { Column, Row } from 'simple-flexbox';
+import { Col, Row } from 'reactstrap';
 
 
 const Body = () => (
-  <div>
-  <Row flexGrow={1} className='Body'justifyContent='center' style={{ paddingTop: '24px', paddingBottom: '24px' }}>
-    <Column horizontal="center" vertical='center'>
-      <iframe className='youtube' width='853' height='505' src="https://www.youtube.com/embed/live_stream?channel=UCWK7I10nUKDRBv_stW8y61g" title='upstreamlive' frameBorder="0" allowFullScreen></iframe>
-    </Column>
-  </Row>
-</div>
+  <div className='Body'>
+    <Row xs='12'>
+      <Col>
+      <div className='video-container'>
+        <iframe width="853" height="480"  src="https://www.youtube.com/embed/live_stream?channel=UCWK7I10nUKDRBv_stW8y61g" title='upstreamlive' frameBorder="0" allowFullScreen></iframe>
+      </div>
+      </Col>
+    </Row>
+</div> 
+
 );
 
 export default Body;
