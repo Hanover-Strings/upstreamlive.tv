@@ -1,17 +1,12 @@
 import React from 'react';
 import { Col, Row } from 'reactstrap';
+import ResponsiveEmbed from 'react-responsive-embed';
 
 
 const Body = () => (
   <div className='Body'>
-    <Row xs='12'>
-      <Col>
-      <div>
-        <iframe width="560" height="349"  src="https://www.youtube.com/embed/live_stream?channel=UCWK7I10nUKDRBv_stW8y61g" title='upstreamlive' frameBorder="0" allowFullScreen></iframe>
-      </div>
-      </Col>
-    </Row>
-</div> 
+    <ResponsiveEmbed src="https://www.youtube.com/embed/live_stream?channel=UCWK7I10nUKDRBv_stW8y61g" allowFullScreen />
+  </div> 
 
 );
 
