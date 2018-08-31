@@ -1,5 +1,5 @@
 import React from 'react';
-import { Column, Row } from 'simple-flexbox';
+import { Container, Col, Row } from 'reactstrap';
 
 
 import logo from  '../../logo.svg';
@@ -10,9 +10,9 @@ class Header extends React.Component {
     return(
       <div>
         <Row justifyContent='center'>
-          <Column horizontal="center" vertical='center' className='logo' flexGrow={1}>
-            <embed src={logo} alt='logo' style={{ width: "30%", height: "auto", paddingTop: "24px" }} />
-          </Column>
+          <Col xs="12" horizontal="center" vertical='center' className='logo' flexGrow={1}>
+            <embed src={logo} alt='logo' style={{ width: "45%", height: "auto", paddingTop: "24px" }} />
+          </Col>
         </Row>
       </div>
     );
