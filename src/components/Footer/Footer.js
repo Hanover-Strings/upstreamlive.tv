@@ -1,8 +1,7 @@
 import React from 'react';
 import { Col, Row } from 'reactstrap';
 
-// import strings from  '../../PWLB-HS2.svg';
-import strings from  '../../strings.png';
+import strings from  '../../PWLBHS WH.svg';
 
 
 const Footer = () => (
