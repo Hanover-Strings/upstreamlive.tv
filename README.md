@@ -2,8 +2,10 @@
 
 
 property of
-### Hanover Strings
-# The best music store in the universe
+
+# Hanover Strings
+
+### The best music store in the universe
 
 ### To Run
 
