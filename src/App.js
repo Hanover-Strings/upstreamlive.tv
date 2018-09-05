@@ -4,7 +4,6 @@ import Header from './components/Header/Header';
 import Body from './components/Body/Body';
 import Footer from './components/Footer/Footer';
 
-import logo from './logo.svg';
 
 import './App.css';
 
