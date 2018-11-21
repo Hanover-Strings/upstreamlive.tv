@@ -3,6 +3,7 @@ import { Col, Row, Button, Modal, ModalHeader, ModalBody, ModalFooter, Card, Car
 
 
 import logo from  '../../logo.svg';
+import jarv from '../../jarv.jpg'
 
 
 
@@ -33,7 +34,7 @@ class Header extends React.Component {
           <ModalHeader toggle={this.toggle}>Next up on the Upstream...</ModalHeader>
           <ModalBody>
             <Card>
-              <CardImg src='https://strings-store.nyc3.digitaloceanspaces.com/unnamed.jpg' alt='jarv' />
+              <CardImg src={jarv} alt='jarv' />
             </Card>
           </ModalBody>
           <ModalFooter>
