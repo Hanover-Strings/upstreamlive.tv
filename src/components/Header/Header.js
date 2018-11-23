@@ -30,7 +30,7 @@ class Header extends React.Component {
           <Col xs="12" horizontal="center" vertical='center' className='logo'>
             <embed src={logo} alt='logo' style={{ width: "45%", height: "auto", paddingTop: "24px" }} />
           </Col>
-          <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
+          {/* <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}>Next up on the Upstream...</ModalHeader>
           <ModalBody>
             <Card>
@@ -40,7 +40,7 @@ class Header extends React.Component {
           <ModalFooter>
             <Button color="primary" onClick={this.toggle}>I'm definitely tuning in!</Button>
           </ModalFooter>
-        </Modal>
+        </Modal> */}
         </Row>
     );
   }
