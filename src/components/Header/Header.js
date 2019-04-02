@@ -34,7 +34,7 @@ class Header extends React.Component {
           <ModalHeader toggle={this.toggle}>Next up on the Upstream...</ModalHeader>
           <ModalBody>
             <Card>
-              <CardImg src='https://strings-store.nyc3.digitaloceanspaces.com/Hanover%20Strings%20Live%20Stream%20Postt.png' alt='jarv' />
+              <CardImg src='https://strings-store.nyc3.digitaloceanspaces.com/upstream-faux.jpg' alt='faux in love' />
             </Card>
           </ModalBody>
           <ModalFooter>
