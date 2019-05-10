@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Amplitude from 'amplitudejs';
 import Header from './components/Header/Header';
 import Body from './components/Body/Body';
 import Footer from './components/Footer/Footer';

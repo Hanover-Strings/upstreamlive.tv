@@ -3,6 +3,7 @@ import { Col, Row } from 'reactstrap';
 
 // import strings from  '../../PWLB-HS2.svg';
 import strings from  '../../strings.png';
+import Player from '../Player';
 
 
 const Footer = () => (
@@ -17,9 +18,9 @@ const Footer = () => (
         </Col>
         <Col xs={{size: 12, order: 1}} sm={{size: 12, order: 1}} md={{size: 6, order: 2}}>
           <h3 style={{ color:"red", paddingTop:'12px'}}>Audio Only   <i class="fas fa-volume-up"></i></h3>
-          <audio style={{ paddingTop:'12px'}} src="http://audio.upstreamlive.tv:8000/stream"  autoplay="false" controls="true"></audio>
+          {/* <audio style={{ paddingTop:'12px'}} src="http://audio.upstreamlive.tv:8000/stream"  autoplay="false" controls="true"></audio> */}
+        <Player />
         </Col>
-
       </Row>      
 );
 
